@@ -17,5 +17,5 @@ app.listen(PORT,()=>{
 })
 
 app.get("/",(req,res)=>{
-    res.download("./resume1.pdf")
+    res.download("./myResume.pdf")
 })
