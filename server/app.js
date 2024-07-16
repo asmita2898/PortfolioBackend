@@ -16,6 +16,10 @@ app.listen(PORT,()=>{
     console.log("server start");
 })
 
+// app.get("/",(req,res)=>{
+//     res.download("./myResume.pdf")
+// })
+
 app.get("/",(req,res)=>{
     res.download("./myResume.pdf")
 })
